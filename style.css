@@ -1,0 +1,87 @@
+body{
+	background-color:#6B876C ;
+	font-family:'Hubballi', cursive;
+	color: #F0F0F0;
+	text-align: center;
+	font-size: 25px;
+}
+
+
+p,h4{
+
+	text-align: justify;
+	font-family:'Hubballi', cursive;
+}
+
+h4{
+	text-align: center;
+
+}
+
+h1{
+	color: #F4F2F3;
+	letter-spacing: 10px;
+	background-color: #D3B88C;
+}
+h2{
+	color: #F4F2F3;
+	background-color: #D3B88C;
+	letter-spacing: 3px;
+}
+i{
+	color: #F0F0F0;
+	size: 50px;
+}
+ul{
+	background-color: #9EBC9F;
+	text-align: center;
+	list-style: none;
+	}
+img{
+	border-radius: 2%;
+	width: 20em;
+}
+
+ol{
+	margin-left: 180px;
+	margin-right: 200px;
+	text-align: left;
+}
+
+img{
+	border: 5px solid yellow;
+	border-color:#F4F2F3; 
+}
+
+
+strong:hover{
+	color: #656256;
+	text-decoration: underline;
+}
+
+.fab:hover{
+	color:#D3B88C;
+}
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+@media (max-width: 760px){
+	.container{
+		width: 600px
+	}
+}
+@media (max-width: 500px){
+	.container{
+		width: 400px
+	}
+}
+.card{
+	margin: 40px auto;
+	box-shadow: 10px 20px 20px rgba(101,98,86,0.2);
+	padding: 30px;
+	background-color: #9EBC9F;
+	text-align: center;
+	}
+
+
